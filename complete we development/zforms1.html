@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <style>
+    body{
+      background-color: coral;
+      
+    }
+   label{
+    color:whitesmoke;
+    background-color:black;
+
+   }
+   input{
+    background-color: antiquewhite;
+   }
+  input[type=text], input[type=password] {
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;}
+  button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+#ip1 {
+    border-radius: 18px;
+    background:;
+    padding: 20px; 
+    width: 200px;
+    height: 15px;    
+}
+
+
+  </style>
+<form action="/signup" method="POST"></form>
+<p>
+    <label>TITLE</label>
+    <label>
+        <input type="radio" name="title" value="mr">
+        mr
+        <input type="radio" name="title" value="mrs">
+        mrs
+        <input type="radio" name="title" value="miss">
+        miss
+    </label><br>
+    <label for="fname">First name:</label>
+    <input type="text" id="ip1" placeholder=" First_name"><br>
+    <label for="lname">Last name:</label>
+    <input type="text" id="ip1" placeholder=" Second_name"><br>
+    <label for="fname">EMAIL:</label>
+    <input type="text" id="ip1"  placeholder=" email"><br>
+    <label for="lname">Phone number:</label>
+    <input type="text" id="ip1" placeholder="Phone"><br>
+    <label for="fname">password:</label>
+    <input type="text" placeholder=" password"><br>
+    <label for="lname">confirm password:</label>
+    <input type="text" placeholder=" password_confirmation"><br>
+    <label for="cars">Country:</label>
+<select id="cars" name="carlist" form="carform">
+  <option value="volvo">India</option>
+  <option value="saab">Australia</option>
+  <option value="opel">America</option>
+  <option value="audi">Asia</option></select><br>
+  <label for="cars">Language:</label>
+  <label>
+  <input type="radio"  value=" I know english">
+  I know english
+  <input type="radio" value="I know french ">
+  I know french
+  </label><br>
+  <p> Addition infromation:</p> <textarea name="Additional infromation" rows="10" cols="20">Enter here</textarea>
+  <br><br>
+  <input type="checkbox" id="vehicle1" name="vehicle1" value=" " checked>
+  <label for="vehicle1">i agree to the </label>
+  <a href="#">Term and Condition</a><br><br>
+  <input type="submit">
+</p>
+</html>
